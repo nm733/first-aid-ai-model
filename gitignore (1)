@@ -1,0 +1,19 @@
+# Secrets - never commit these
+.env
+*.env
+secrets.*
+*.key
+
+# Your private data and trained model (kept out of GitHub on purpose).
+# Remove these two lines only if the repo is PRIVATE and you want the files in it.
+*.csv
+*.pkl
+
+# Voice recordings made while the app runs
+recordings/
+firstaid_data/
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
